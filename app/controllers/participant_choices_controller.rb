@@ -1,8 +1,8 @@
 
 class ParticipantChoicesController < ApplicationController
   require 'aquarium'
-  
-  scaffold :signup_choices 
+
+  scaffold :signup_choices
   scaffold :waitlists
   scaffold :participants
   scaffold :assignment_signups

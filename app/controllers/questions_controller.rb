@@ -1,6 +1,6 @@
 class QuestionsController < ApplicationController
   require 'aquarium'
-  
+
 scaffold :answers
 
   # A question is a single entry within a questionnaire
